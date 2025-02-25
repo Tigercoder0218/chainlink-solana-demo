@@ -1,8 +1,4 @@
 
-> 🚧 Deprecated
->
-> This example is deprecated. Use the example at https://github.com/smartcontractkit/solana-starter-kit.
-
 # Chainlink <> Solana Program deployment demo
 
 This demo shows you how to deploy a Chainlink compatible program to the [Solana Devnet](https://docs.solana.com/clusters#devnet). You will also deploy an account to store data. In Solana, storage and smart contract logic are aggressively separated. Solana programs are considered "smart contracts", and store all the logic for your program. Accounts store all the data.
@@ -12,7 +8,7 @@ This program and account reads and stores price feed data from Solana. Solana pr
 # Part 1: Deploy a Program
 
 Build and deploy a program written in Rust that can retrieve price feed data from the [Solana Devnet Feeds](https://docs.chain.link/docs/solana-price-feeds/).
-This program depends on parts of the [smartcontractkit/chainlink-solana](https://github.com/smartcontractkit/chainlink-solana) repository. See the [`Cargo.toml`](https://github.com/smartcontractkit/chainlink-solana-demo/blob/main/Cargo.toml) file for the full list of dependencies.
+This program depends on parts of the [smartcontractkit/chainlink-solana](https://github.com/Tigercoder0218/chainlink-solana-demo) repository. See the [`Cargo.toml`](https://github.com/Tigercoder0218/chainlink-solana-demo) file for the full list of dependencies.
 
 Solana programs are stateless. If you know the program ID and the account for a deployed Solana program, you can skip to Part 2 and reuse that deployed program. At this time, this demo does not explain how to edit the code here without deploying your program.
 
@@ -39,7 +35,7 @@ Solana programs are stateless. If you know the program ID and the account for a 
     git version 2.32.0
     ```
 
-1. Clone the [chainlink-solana-demo](https://github.com/smartcontractkit/chainlink-solana-demo) repository:
+1. Clone the [chainlink-solana-demo](https://github.com/Tigercoder0218/chainlink-solana-demo) repository:
 
     ```
     git clone https://github.com/smartcontractkit/chainlink-solana-demo
